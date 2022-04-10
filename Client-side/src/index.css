@@ -1,0 +1,349 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Fruktur&family=Montserrat:wght@800&family=Nunito:wght@800;900&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+.header {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(231, 228, 228);
+    font-family: 'Titillium Web', sans-serif;
+    color:rgb(0, 0, 0);
+  }
+
+.header .links {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.header .links:visited{
+  color: black;
+}
+
+.navbar{
+  margin-top:10px;
+}
+
+.homepage {
+  font-family: 'Dongle';
+  font-size: 40px;
+}
+
+.homepage .overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 680px;
+  background: no-repeat center/cover;
+  text-indent: 30px;
+}
+
+.side-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.intro {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+.banner-img {
+  width: 30%;
+  margin-right: 80px;
+}
+
+.start-btn{
+  background-color: goldenrod;
+  color: white;
+  border-radius: 30px;
+  border-color: goldenrod;
+  width: 250px;
+}
+
+.s-heading{
+  text-align:center;
+}
+
+.s-heading h2{
+  padding-top: 25px;
+  color:#576975;
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0px;
+}
+.s-heading p{
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 2rem;
+  margin: 5px;
+  text-align: center;
+}
+
+.s-box h1{
+  color:#16405c;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  
+}
+.s-box p{
+  color: #16405c;
+  text-align: center;
+}
+
+span{
+  color: rgb(255, 123, 0);
+}
+
+.card{
+  width: 20rem;
+  background: radial-gradient(#e5e5e5,#ffff,#e5e5e5);
+}
+
+.card:hover{
+  box-shadow: 5px, 10px, 20px, 1px rgba(0, 0, 0, 0.253) !important;
+}
+
+.card-body {
+  padding: 1rem !important;
+  color: #16405c;
+}
+
+.container-fluid .row {
+  padding-top: 1rem;
+  padding-bottom: 6rem;
+}
+
+.card-subtitle {
+  font-size: 24px;
+  color: #fb607f;
+}
+
+.donate-ban{
+  background: url(./asset-2/bg-2.png) no-repeat;
+  width:100%;
+  height:100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 2%;
+  background-size:100%;
+  padding-bottom:2%;
+  margin-bottom:0px;
+  color: steelblue;
+
+}
+
+.don-head{
+  padding-left: 25%;
+  padding-top: 0.5%;
+  font-size: large;
+  color: #e5e5e5;
+  font-size: 24px;
+  font-weight: 300;
+  }
+
+  .donbutton{
+    float:right;
+    margin-top:-55px;
+    padding-right: 10%;
+  }
+      .don-btn {
+        background-color: rgb(119, 103, 87);
+        border: none;
+        color: white;
+        padding: 15px 60px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 6px;
+        border-radius:30px;
+        cursor: pointer;
+      }
+  
+.foot {
+  color:#e5e5e5;
+  font-size: smaller;
+  text-align: center;
+  background-color:dimgray;
+  margin-bottom: 0;
+}
+.copyright{
+  font-size: smaller;
+}
+
+.contact {
+  margin-top: -5px;
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+.displayLocation{
+  font-size: 1em;
+}
+.mapPage{
+  display: flex;
+  
+}
+.sidebar{
+  max-height:660px;
+  max-width: 300px;
+  text-align: center;
+  overflow: scroll;
+}
+.pastCrimes{
+  /* margin:4px, 4px; */
+  font-size: 0.95em;
+  padding:4px;
+  width: 270px;
+  max-height: 375px;
+  /* overflow-x: hidden;
+  overflow-y: auto; */
+  text-align:justify;
+}
+#change-loc {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+.addToDataBase, .reportCrime{
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+.log-sign-in{
+  background-color:#236ee8;
+  color:white !important;
+  border-radius:9px;
+  padding:10px 15px;
+  margin-left: 150px;
+  border-radius:10px;
+  font-family: 'Prata', serif;
+}
+.login-signup-page{
+  display: flex;
+}
+.login-signup-img{
+  margin-left: 200px;
+  margin-top: 70px;
+  max-height: 470px;
+}
+.Login {
+  margin-left: 550px;
+  margin-top: 200px;
+}
+#email.form-control {
+  width: 300px;
+}
+#password.form-control{
+  width: 300px;
+}
+.Login Button{
+  margin-left: 105px;
+}
+.Signup {
+  margin-left: 550px;
+  margin-top: 200px;
+}
+#email.form-control {
+  width: 300px;
+}
+#password.form-control{
+  width: 300px;
+}
+.Signup Button{
+  margin-left: 105px;
+}
+.l-signup{
+  text-align: center;
+}
+.loggedin{
+  margin-top: 300px;
+  margin-left: 500px;
+}
+.error-login-signup{
+  text-align: center;
+  color: red;
+}
+h2{
+  font-family: 'Abril Fatface', cursive;
+  padding-left: 60px;
+  font-size:3em;
+}
+span{
+  color: rgb(255, 123, 0);
+}
+
+.foot1 {
+  color:#000000;
+  font-size: smaller;
+  text-align: center;
+  margin-bottom: 0;
+}
+.foot2 p{
+  background-color:#4c5358;
+  padding-top: 10px;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 2px;
+  }
+
+.f2{
+  font-size:18px;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+  margin: 0 10px;
+}
+.socials a i{
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color .4s ease;
+}
+
+label{
+    color: tomato;
+    font-family: 'Raleway';
+    font-size: smaller;
+}
+
+.form-control{
+  margin-bottom: 10px;
+
+}
